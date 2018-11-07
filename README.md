@@ -7,7 +7,10 @@
 3) **Mappa1**: this is the map of New York with the taxi zones.
   http://nbviewer.jupyter.org/github/DavideToma/Group32-HW2/blob/master/mappa1.html
 4) **Mappa2018pu**: map of New York about the areas where taxis are picked up.
+http://nbviewer.jupyter.org/github/DavideToma/Group32-HW2/blob/master/mappa2018pu.html
 5) **Mappa2018do**: map of New York about the areas of drop off.
+http://nbviewer.jupyter.org/github/DavideToma/Group32-HW2/blob/master/mappa2018do.html
 6) **mean_tripduration_NYC.html**: analysis for each borough of the average of trip duration (using Bokeh library).
+http://nbviewer.jupyter.org/github/DavideToma/Group32-HW2/blob/master/mean_tripduration_NYC.html
+
 ### We have inserted the *html file* and *RQ bonus* in README because otherwise this file.ipynb was too big to be loaded on github (in this way we didn't run they in the notebook).
-### Also, NB viewer did not work for us and for this we added the html in the repository.
