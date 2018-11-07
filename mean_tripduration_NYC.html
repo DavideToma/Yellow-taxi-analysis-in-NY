@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Bokeh Plot</title>
+        
+<link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-0.12.16.min.css" type="text/css" />
+        
+<script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-0.12.16.min.js"></script>
+<script type="text/javascript">
+    Bokeh.set_log_level("info");
+</script>
+    </head>
+    <body>
+        
+        <div class="bk-root">
+            <div class="bk-plotdiv" id="a1b0a5a7-d7ff-44bc-b371-27bfcbc6199f"></div>
+        </div>
+        
+        <script type="application/json" id="522002bd-491e-412f-856b-7c7904c8ff54">
+          {"2246dae4-ee9c-4f98-a332-40093450aa77":{"roots":{"references":[{"attributes":{},"id":"cc17b2d0-7303-4024-b1b8-e4cb6482044e","type":"UnionRenderers"},{"attributes":{},"id":"e873642d-fbf7-466d-b370-8d670f6250b6","type":"BasicTicker"},{"attributes":{"dimension":1,"plot":{"id":"bd08acae-8d3b-498c-ad5f-e533cf535cf1","subtype":"Figure","type":"Plot"},"ticker":{"id":"e873642d-fbf7-466d-b370-8d670f6250b6","type":"BasicTicker"}},"id":"188618f9-0cb0-499d-8617-7552339447b6","type":"Grid"},{"attributes":{"bottom_units":"screen","fill_alpha":{"value":0.5},"fill_color":{"value":"lightgrey"},"left_units":"screen","level":"overlay","line_alpha":{"value":1.0},"line_color":{"value":"black"},"line_dash":[4,4],"line_width":{"value":2},"plot":null,"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"fd27416d-e150-47c0-8111-bf9694474314","type":"BoxAnnotation"},{"attributes":{},"id":"fbf9b9de-ff0f-434d-b061-de5ef5dee75d","type":"Selection"},{"attributes":{"data_source":{"id":"5775355b-e409-438d-ae9a-178bacf68c6a","type":"ColumnDataSource"},"glyph":{"id":"aed356e3-81e8-4175-aca4-9f692caa6644","type":"VBar"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"8454a97d-b965-4ea8-ac27-dc4778eb533c","type":"VBar"},"selection_glyph":null,"view":{"id":"06346486-fd01-4b99-bc49-ca4bb8fbd17c","type":"CDSView"}},"id":"e1c06108-de54-44f1-8fa4-23e49a88d3d2","type":"GlyphRenderer"},{"attributes":{"fill_color":{"field":"Borough","transform":{"id":"6760d8ce-2e77-48ac-9ed8-b045852f2eeb","type":"CategoricalColorMapper"}},"line_color":{"field":"Borough","transform":{"id":"6760d8ce-2e77-48ac-9ed8-b045852f2eeb","type":"CategoricalColorMapper"}},"top":{"field":"travel_time"},"width":{"value":0.7},"x":{"field":"Borough"}},"id":"aed356e3-81e8-4175-aca4-9f692caa6644","type":"VBar"},{"attributes":{"plot":null,"text":"Average life taxicab"},"id":"6d286943-01ec-4a0e-a167-dbf0bc0164a3","type":"Title"},{"attributes":{"below":[{"id":"0d551fd9-11c8-45e7-8bb7-c80d4c6e8e07","type":"CategoricalAxis"}],"left":[{"id":"41c07f3f-9e78-48b8-8548-5c976b5089f4","type":"LinearAxis"}],"renderers":[{"id":"0d551fd9-11c8-45e7-8bb7-c80d4c6e8e07","type":"CategoricalAxis"},{"id":"84596491-71b7-4cad-8f18-f196251ee28b","type":"Grid"},{"id":"41c07f3f-9e78-48b8-8548-5c976b5089f4","type":"LinearAxis"},{"id":"188618f9-0cb0-499d-8617-7552339447b6","type":"Grid"},{"id":"fd27416d-e150-47c0-8111-bf9694474314","type":"BoxAnnotation"},{"id":"e1c06108-de54-44f1-8fa4-23e49a88d3d2","type":"GlyphRenderer"}],"title":{"id":"6d286943-01ec-4a0e-a167-dbf0bc0164a3","type":"Title"},"toolbar":{"id":"ef418b69-727f-408e-a886-d78963e63c83","type":"Toolbar"},"x_range":{"id":"c012206d-b322-47cc-9f80-fc4355ff44bb","type":"FactorRange"},"x_scale":{"id":"4ef7a049-400d-463e-a9f6-0334fce390c4","type":"CategoricalScale"},"y_range":{"id":"ce558a74-f5d7-40d0-94d9-def83184d1f1","type":"DataRange1d"},"y_scale":{"id":"b7701887-ce4e-40bf-899e-08e05b199ff1","type":"LinearScale"}},"id":"bd08acae-8d3b-498c-ad5f-e533cf535cf1","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"16490842-1d03-4b5b-8249-31b86a482244","type":"PanTool"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"field":"travel_time"},"width":{"value":0.7},"x":{"field":"Borough"}},"id":"8454a97d-b965-4ea8-ac27-dc4778eb533c","type":"VBar"},{"attributes":{},"id":"cde5a7c1-bdf5-4355-ad61-4e00a7357ecd","type":"WheelZoomTool"},{"attributes":{"factors":["Bronx","Brooklyn","EWR","Manhattan","Queens","Staten Island","Unknown"],"palette":["#3288bd","#99d594","#e6f598","#ffffbf","#fee08b","#fc8d59","#d53e4f"]},"id":"6760d8ce-2e77-48ac-9ed8-b045852f2eeb","type":"CategoricalColorMapper"},{"attributes":{"callback":null,"factors":["Bronx","Brooklyn","EWR","Manhattan","Queens","Staten Island","Unknown"]},"id":"c012206d-b322-47cc-9f80-fc4355ff44bb","type":"FactorRange"},{"attributes":{"overlay":{"id":"fd27416d-e150-47c0-8111-bf9694474314","type":"BoxAnnotation"}},"id":"242a7b1f-bbab-4582-80b0-506fc72c957a","type":"BoxZoomTool"},{"attributes":{},"id":"b7701887-ce4e-40bf-899e-08e05b199ff1","type":"LinearScale"},{"attributes":{},"id":"19045ff2-ceae-48c6-a6ec-ee20f1a84611","type":"SaveTool"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_scroll":"auto","active_tap":"auto","tools":[{"id":"16490842-1d03-4b5b-8249-31b86a482244","type":"PanTool"},{"id":"cde5a7c1-bdf5-4355-ad61-4e00a7357ecd","type":"WheelZoomTool"},{"id":"242a7b1f-bbab-4582-80b0-506fc72c957a","type":"BoxZoomTool"},{"id":"19045ff2-ceae-48c6-a6ec-ee20f1a84611","type":"SaveTool"},{"id":"56f6484c-0bd6-4297-8f4a-f56c08d68bb0","type":"ResetTool"},{"id":"deaf2c22-31ab-4f86-a3e0-c190c1e1a2fc","type":"HelpTool"},{"id":"cae7e3e7-d1dd-462f-86da-894a5b4c7a8b","type":"HoverTool"}]},"id":"ef418b69-727f-408e-a886-d78963e63c83","type":"Toolbar"},{"attributes":{},"id":"56f6484c-0bd6-4297-8f4a-f56c08d68bb0","type":"ResetTool"},{"attributes":{},"id":"deaf2c22-31ab-4f86-a3e0-c190c1e1a2fc","type":"HelpTool"},{"attributes":{"axis_label":"Travelling time","formatter":{"id":"7c4c8ce3-e707-45a3-a60b-3a1034d9e48c","type":"BasicTickFormatter"},"plot":{"id":"bd08acae-8d3b-498c-ad5f-e533cf535cf1","subtype":"Figure","type":"Plot"},"ticker":{"id":"e873642d-fbf7-466d-b370-8d670f6250b6","type":"BasicTicker"}},"id":"41c07f3f-9e78-48b8-8548-5c976b5089f4","type":"LinearAxis"},{"attributes":{},"id":"7c4c8ce3-e707-45a3-a60b-3a1034d9e48c","type":"BasicTickFormatter"},{"attributes":{},"id":"fe347444-2401-4012-882c-da816f58b4ba","type":"CategoricalTickFormatter"},{"attributes":{"callback":null},"id":"ce558a74-f5d7-40d0-94d9-def83184d1f1","type":"DataRange1d"},{"attributes":{"source":{"id":"5775355b-e409-438d-ae9a-178bacf68c6a","type":"ColumnDataSource"}},"id":"06346486-fd01-4b99-bc49-ca4bb8fbd17c","type":"CDSView"},{"attributes":{"axis_label":"Borough","formatter":{"id":"fe347444-2401-4012-882c-da816f58b4ba","type":"CategoricalTickFormatter"},"plot":{"id":"bd08acae-8d3b-498c-ad5f-e533cf535cf1","subtype":"Figure","type":"Plot"},"ticker":{"id":"ec14a252-fca4-409e-9fcb-0171269e6770","type":"CategoricalTicker"}},"id":"0d551fd9-11c8-45e7-8bb7-c80d4c6e8e07","type":"CategoricalAxis"},{"attributes":{"callback":null,"data":{"Borough":["Bronx","Brooklyn","EWR","Manhattan","Queens","Staten Island","Unknown"],"travel_time":{"__ndarray__":"FB9Z13mNMkAQuSa9+pwxQMEhv+CaRzJA+Q50qMfkMED2Op6IyOE0QNelNPA37zNAj1Z/BMzLMEA=","dtype":"float64","shape":[7]}},"selected":{"id":"fbf9b9de-ff0f-434d-b061-de5ef5dee75d","type":"Selection"},"selection_policy":{"id":"cc17b2d0-7303-4024-b1b8-e4cb6482044e","type":"UnionRenderers"}},"id":"5775355b-e409-438d-ae9a-178bacf68c6a","type":"ColumnDataSource"},{"attributes":{},"id":"ec14a252-fca4-409e-9fcb-0171269e6770","type":"CategoricalTicker"},{"attributes":{},"id":"4ef7a049-400d-463e-a9f6-0334fce390c4","type":"CategoricalScale"},{"attributes":{"callback":null,"mode":"vline","renderers":"auto","tooltips":[["Average","@travel_time about this borough"]]},"id":"cae7e3e7-d1dd-462f-86da-894a5b4c7a8b","type":"HoverTool"},{"attributes":{"plot":{"id":"bd08acae-8d3b-498c-ad5f-e533cf535cf1","subtype":"Figure","type":"Plot"},"ticker":{"id":"ec14a252-fca4-409e-9fcb-0171269e6770","type":"CategoricalTicker"}},"id":"84596491-71b7-4cad-8f18-f196251ee28b","type":"Grid"}],"root_ids":["bd08acae-8d3b-498c-ad5f-e533cf535cf1"]},"title":"Bokeh Application","version":"0.12.16"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('522002bd-491e-412f-856b-7c7904c8ff54').textContent;
+                  var render_items = [{"docid":"2246dae4-ee9c-4f98-a332-40093450aa77","elementid":"a1b0a5a7-d7ff-44bc-b371-27bfcbc6199f","modelid":"bd08acae-8d3b-498c-ad5f-e533cf535cf1"}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        embed_document(root);
+                        clearInterval(timer);
+                      }
+                      attempts++;
+                      if (attempts > 100) {
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing")
+                        clearInterval(timer);
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    </body>
+</html>
